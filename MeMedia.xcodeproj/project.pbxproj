@@ -15,6 +15,8 @@
 		27C78D031E8FFE1800072114 /* MeMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C78D021E8FFE1800072114 /* MeMediaTests.swift */; };
 		27C78D0E1E8FFE1800072114 /* MeMediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C78D0D1E8FFE1800072114 /* MeMediaUITests.swift */; };
 		27C78D1C1E90007700072114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C78D1B1E90007700072114 /* Assets.xcassets */; };
+		27C78D1F1E90067B00072114 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C78D1E1E90067B00072114 /* extensions.swift */; };
+		27C78D221E900A7500072114 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C78D211E900A7500072114 /* VideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		27C78D0D1E8FFE1800072114 /* MeMediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMediaUITests.swift; sourceTree = "<group>"; };
 		27C78D0F1E8FFE1800072114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C78D1B1E90007700072114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C78D1E1E90067B00072114 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		27C78D211E900A7500072114 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		27C78CE91E8FFE1800072114 /* MeMedia */ = {
 			isa = PBXGroup;
 			children = (
+				27C78D201E900A6700072114 /* Views */,
+				27C78D1D1E90064E00072114 /* extensions */,
 				27C78CEA1E8FFE1800072114 /* AppDelegate.swift */,
 				27C78CEC1E8FFE1800072114 /* ViewController.swift */,
 				27C78CEE1E8FFE1800072114 /* Main.storyboard */,
@@ -126,6 +132,22 @@
 				27C78D0F1E8FFE1800072114 /* Info.plist */,
 			);
 			path = MeMediaUITests;
+			sourceTree = "<group>";
+		};
+		27C78D1D1E90064E00072114 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				27C78D1E1E90067B00072114 /* extensions.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		27C78D201E900A6700072114 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27C78D211E900A7500072114 /* VideoCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C78D221E900A7500072114 /* VideoCell.swift in Sources */,
 				27C78CED1E8FFE1800072114 /* ViewController.swift in Sources */,
 				27C78CEB1E8FFE1800072114 /* AppDelegate.swift in Sources */,
 				27C78CF31E8FFE1800072114 /* MeMedia.xcdatamodeld in Sources */,
+				27C78D1F1E90067B00072114 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
